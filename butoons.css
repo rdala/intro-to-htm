@@ -1,0 +1,66 @@
+
+    .subscribe-button {
+
+        background-color: red;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 13px;
+        transition: opacity 0.5s;
+     }
+    .jion-button {
+        background-color: white;
+        border-color: rgb(60, 60, 202);
+        height: 50px;
+        cursor: pointer;
+        border-width: 1px;
+        border-style: solid;
+        width: 60px;
+        color: rgb(60, 60, 202);
+        border-radius: 2px;
+        transition: background-color 2s,
+                    color 1s;
+    }
+
+    .tweet-button {
+        background-color: rgb(68, 68, 184);
+        height: 50px;
+        cursor: pointer;
+        border: solid;
+        width: 60px;
+        color: white;
+        border-radius: 30px;
+        width: 105;
+        font-size: 15;
+        margin-left: 13;
+        transition: background-color 2s,
+                    color 1s;
+
+    }
+
+    .subscribe-button:hover {
+        background-color: blue;
+    }
+
+    .subscribe-button:active {
+        background-color: pink
+    }
+     
+    .jion-button:hover {
+        background-color: black
+
+    }
+
+    .jion-button:active {
+        opacity: 0.4;
+    }
+
+    .tweet-button:hover {
+        background-color: red;
+        box-shadow: 6px 6px 4px rgb(85, 68, 68, 26);
+
+    }
+    
